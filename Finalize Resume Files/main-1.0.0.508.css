@@ -3,6 +3,11 @@
 *::after {
     box-sizing: border-box
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
 
 * {
     transition: color 0.2s, background-color .25s, border-color .5s, opacity .25s
